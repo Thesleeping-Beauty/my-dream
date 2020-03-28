@@ -6,7 +6,7 @@ body {
   line-height: 32px;
   color: #f2f2f2;
   background-color: #080208;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .page-header {
-  margin: 0 0 180px;
+  margin: 0 0 100px;
   padding: 32px 0 32px;
 }
 
@@ -38,16 +38,16 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("icon-email.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("icon-phone.svg");
 }
 
 .hero-image {
-  margin-bottom: 480px;
+  margin-bottom:100px;
 }
 
 .hero-image .container {
@@ -57,7 +57,7 @@ body {
 
 .heading {
   margin: 0 0 24px;
-  font-size: 80px;
+  font-size: 75px;
   line-height: 96px;
 }
 
@@ -107,11 +107,15 @@ body {
 }
 
 .skill-html {
-  background-image: url("img/icon-html.svg");
+  background-image: url("icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("img/icon-css.svg");
+  background-image: url("icon-css.svg");
+}
+
+.skill-javascript {
+  background-image: url("icon-js.jpg");
 }
 
 .level {
@@ -131,28 +135,6 @@ body {
   border-radius: 6px;
 }
 
-.portfolio {
-  margin: 0 0 120px;
-}
-
-.projects {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.projects li {
-  margin: 0 0 80px;
-}
-
-.project-image {
-  margin: 0 0 24px;
-  text-align: center;
-}
-
-.projects p {
-  margin: 0 0 24px;
-}
 
 .button {
   padding: 6px 20px;
@@ -180,10 +162,10 @@ body {
 
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email.svg");
+  background-image: url("icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone.svg");
+  background-image: url("icon-phone.svg");
 }
